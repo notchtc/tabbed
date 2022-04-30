@@ -1,0 +1,6 @@
+*.o
+*.orig
+*.rej
+tabbed
+xembed
+config.def.h

@@ -1,0 +1,27 @@
+= tabbed - generic tabbed interface
+chtc <notnotcha0t1c@protonmail.com>
+{docdate}
+
+My personal https://tools.suckless.org/tabbed[tabbed] build.
+
+== Requirements
+In order to build tabbed you need the Xlib header files.
+
+Installation
+Clone the repository and enter the directory.
+[source,shell]
+git clone https://github.com/notchtc/tabbed
+cd tabbed
+
+Edit config.mk to match your local setup (tabbed is installed into the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install tabbed (if necessary as root):
+[source,shell]
+make clean install
+
+== Patches
+- https://tools.suckless.org/tabbed/patches/autohide[autohide]
+- https://tools.suckless.org/tabbed/patches/xresources/[xresources]
+
+== Running tabbed
+See the man page for details.
